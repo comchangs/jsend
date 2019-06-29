@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/compiler.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+.idea/vcs.xml
+jsend.iml
+src/main/resources/
+target/
