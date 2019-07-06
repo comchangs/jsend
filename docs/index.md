@@ -3,7 +3,7 @@ A library used for generating Json String of JSend
 
 ## Setting
 ### Maven
-```
+```xml
 <dependency>
   <groupId>work.jeong.murry.jsend</groupId>
   <artifactId>jsend</artifactId>
