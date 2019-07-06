@@ -3,7 +3,7 @@ A library used for generating Json String of JSend
 
 ## Setting
 ### Maven
-```
+```xml
 <dependency>
   <groupId>work.jeong.murry.jsend</groupId>
   <artifactId>jsend</artifactId>
@@ -11,7 +11,7 @@ A library used for generating Json String of JSend
 </dependency>
 ```
 ### Gradle
-```
+```groovy
 dependencies {
     implementation("work.jeong.murry.jsend", "jsend", "{latest_version}")
 }
