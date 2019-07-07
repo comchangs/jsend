@@ -10,10 +10,10 @@ action "comchangs/action-maven-deploy" {
 
 workflow "release" {
   on = "release"
-  resolves = ["comchangs/action-maven-deploy@v0.2-beta"]
+  resolves = ["comchangs/action-maven-deploy@v0.3-beta"]
 }
 
-action "comchangs/action-maven-deploy@v0.2-beta" {
+action "comchangs/action-maven-deploy@v0.3-beta" {
   uses = "comchangs/action-maven-deploy@v0.3-beta"
   args = "clean deploy"
 }
