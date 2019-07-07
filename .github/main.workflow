@@ -5,5 +5,5 @@ workflow "build test" {
 
 action "comchangs/action-maven-deploy" {
   uses = "comchangs/action-maven-deploy@master"
-  args = "clean install compile package"
+  args = "clean compile test"
 }
