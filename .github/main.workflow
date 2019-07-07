@@ -1,19 +1,9 @@
 workflow "build test" {
-  resolves = ["comchangs/action-maven-deploy"]
+  resolves = ["comchangs/action-maven"]
   on = "push"
 }
 
-action "comchangs/action-maven-deploy" {
-  uses = "comchangs/action-maven-deploy@v0.3-beta"
+action "comchangs/action-maven" {
+  uses = "comchangs/action-maven@v0.4-beta"
   args = "clean compile test"
-}
-
-workflow "release" {
-  on = "release"
-  resolves = ["comchangs/action-maven-deploy@v0.3-beta"]
-}
-
-action "comchangs/action-maven-deploy@v0.3-beta" {
-  uses = "comchangs/action-maven-deploy@v0.3-beta"
-  args = "clean deploy"
 }
