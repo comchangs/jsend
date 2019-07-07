@@ -4,7 +4,7 @@ workflow "build test" {
 }
 
 action "comchangs/action-maven-deploy" {
-  uses = "comchangs/action-maven-deploy@v0.2-beta"
+  uses = "comchangs/action-maven-deploy@v0.3-beta"
   args = "clean compile test"
 }
 
