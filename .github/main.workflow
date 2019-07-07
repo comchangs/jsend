@@ -14,6 +14,6 @@ workflow "release" {
 }
 
 action "comchangs/action-maven-deploy@v0.2-beta" {
-  uses = "comchangs/action-maven-deploy@v0.2-beta"
+  uses = "comchangs/action-maven-deploy@v0.3-beta"
   args = "clean deploy"
 }
