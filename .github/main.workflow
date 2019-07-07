@@ -4,6 +4,6 @@ workflow "New workflow" {
 }
 
 action "comchangs/action-maven-deploy" {
-  uses = "comchangs/action-maven-deploy@765e218a50f02a12a7596dc9e7321fc385888a27"
+  uses = "comchangs/action-maven-deploy@master"
   args = "clean install compile package"
 }
