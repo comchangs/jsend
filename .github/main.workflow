@@ -1,9 +1,10 @@
 workflow "build on push" {
   on = "push"
-  resolves = ["GitHub Action for Maven"]
+  resolves = ["Maven"]
 }
 
-action "GitHub Action for Maven" {
-  uses = "LucaFeger/action-maven-cli@765e218a50f02a12a7596dc9e7321fc385888a27"
+action "Maven" {
+  uses = "comchangs/action-maven-deploy"
   args = "clean install compile package"
+  secrets = ["MAVEN_SETTINGS"]
 }
