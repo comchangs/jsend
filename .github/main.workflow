@@ -1,6 +1,6 @@
-workflow "New workflow" {
-  on = "push"
+workflow "build test" {
   resolves = ["comchangs/action-maven-deploy"]
+  on = "push"
 }
 
 action "comchangs/action-maven-deploy" {
