@@ -7,7 +7,7 @@ A library used for generating Json String of JSend
 <dependency>
   <groupId>work.jeong.murry.jsend</groupId>
   <artifactId>jsend</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 </dependency>
 ```
 ### Gradle
