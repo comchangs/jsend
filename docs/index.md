@@ -1,6 +1,8 @@
 # jsend
 A library used for generating Json String of JSend
 
+[![Maven Central](https://img.shields.io/maven-central/v/work.jeong.murry.jsend/jsend.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22work.jeong.murry.jsend%22%20AND%20a:%22jsend%22)
+
 ## Setting
 ### Maven
 ```xml
